@@ -35,13 +35,24 @@ public class MaxSum {
 		data = new int[] { 0, 1, 2, -3, 3, -1, 0, -4, 0, -1, -4, 2, 4, 1, 1, 3,
 				1, 0, -2, -3, -3, -2, 3, 1, 1, 4, 5, -3, -2, -1 };
 		System.out.println(mSum.max_sum_subsequence(data));
+
 		data = new int[] { -1, -2, 1, 1, -3, 5 };
 		System.out.println(mSum.max_sum_subsequence(data));
 
 		data = new int[] { 0, 1, 2, -3, 3, -1, 0, -4, 0, -1, -4, 2, 4, 1, 1, 3,
 				1, 0, -2, -3, -3, -2, 3, 1, 1, 4, 5, -3, -2, -1 };
 		System.out.println(mSum.max_sum(data));
+
 		data = new int[] { -1, -2, 1, 1, -3, 5 };
+		System.out.println(mSum.max_sum(data));
+
+		data = new int[] { -1 };
+		System.out.println(mSum.max_sum(data));
+
+		data = new int[] { -1, -1, -1 };
+		System.out.println(mSum.max_sum(data));
+
+		data = new int[] { 1, 1, 1 };
 		System.out.println(mSum.max_sum(data));
 	}
 }
